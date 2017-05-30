@@ -1,0 +1,1 @@
+cmd_/home/spice/SourceCode/OK6410/01_内核模块编译/hello.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o /home/spice/SourceCode/OK6410/01_内核模块编译/hello.ko /home/spice/SourceCode/OK6410/01_内核模块编译/hello.o /home/spice/SourceCode/OK6410/01_内核模块编译/hello.mod.o
