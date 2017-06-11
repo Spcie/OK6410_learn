@@ -1,4 +1,4 @@
-Linux高级字符设备模块学习
+Linux ioctl实现学习
 参考OK6410资料
 运行环境
 Ubuntu 16.04.2 LTS
