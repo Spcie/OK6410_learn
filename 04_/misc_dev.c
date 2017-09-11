@@ -7,10 +7,10 @@
 #include <mach/gpio.h>
 
 //定义命令
-#define DEV_CMD_1		_IOW('h',0x01,unsigned long)		//LED开的命令
-#define DEV_CMD_1		_IOW('h',0x02,unsigned long)		//LED关的命令
+#define DEV_CMD_1		_IOW('h',0x01,unsigned long)		
+#define DEV_CMD_1		_IOW('h',0x02,unsigned long)		
 
-int dev_state = 0;			//1为打开，0为关闭
+int dev_state = 0;
 
 int dev_open(struct inode *inode,struct file *filp )  
 {
