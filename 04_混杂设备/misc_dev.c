@@ -93,11 +93,6 @@ static int __init dev_init(void)
 		return ret;
 	}
 
-	/**
-	* 初始化字符设备 
-	*/
-
-
 	return 0;
 }
 
